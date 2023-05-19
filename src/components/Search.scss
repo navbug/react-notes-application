@@ -1,0 +1,28 @@
+.search_container {
+  display: flex;
+  justify-content: center;
+
+  .search {
+    background-color: #d3d3d3;
+    padding: 0.1rem 0.5rem;
+    margin: 1rem;
+    width: 70%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+
+    input {
+      width: 100%;
+      background-color: inherit;
+    }
+
+    span {
+      padding: 0.5rem 0.7rem;
+      margin-right: -0.4rem;
+      border-radius: 1rem;
+      background-color: #a9a6a6;
+      cursor: pointer;
+    }
+  }
+}

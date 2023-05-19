@@ -1,0 +1,46 @@
+.note_container {
+  background-color: yellowgreen;
+  padding: 1rem;
+  margin: 1px;
+  border-radius: .5rem;
+  width: 273px;
+  height: 170px;
+  // display: grid;
+  // grid-template-columns: 1fr 1fr 1fr;
+  // grid-gap: .1rem;
+  // margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  .note {
+    font-size: 1.2rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .date_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    // margin: 0 auto;
+    width: 100%;
+  }
+
+  .delete_note {
+    background-color: #505050;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: .1rem .3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    font-size: .98rem;
+    &:hover {
+      background-color: #8b0d0d;
+    }
+  }
+}

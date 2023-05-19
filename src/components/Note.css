@@ -1,0 +1,38 @@
+.note_container {
+  background-color: yellowgreen;
+  padding: 1rem;
+  margin: 1px;
+  border-radius: 0.5rem;
+  width: 273px;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.note_container .note {
+  font-size: 1.2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.note_container .date_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+}
+.note_container .delete_note {
+  background-color: #505050;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 0.98rem;
+}
+.note_container .delete_note:hover {
+  background-color: #8b0d0d;
+}/*# sourceMappingURL=Note.css.map */

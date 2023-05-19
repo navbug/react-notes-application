@@ -1,0 +1,35 @@
+.add_note {
+  position: relative;
+  margin: 1px;
+  
+  textarea {
+    height: 170px;
+    width: 273px;
+    border: none;
+    outline: none;
+    padding: .3rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    color: #fff;
+    background-color: rgb(124, 232, 196);
+    &:focus {
+      background-color: rgb(68, 192, 150);
+    }
+  }
+  .save {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    background-color: rgb(68, 192, 150);
+    color: #fff;
+    padding: .3rem;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .98rem;
+    &:hover {
+      background-color: rgb(6, 192, 150);
+    }
+  }
+}
